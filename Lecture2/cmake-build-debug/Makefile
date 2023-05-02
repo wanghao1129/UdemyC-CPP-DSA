@@ -123,6 +123,33 @@ Lecture2/fast:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/build
 .PHONY : Lecture2/fast
 
+Arilthametic.o: Arilthametic.cpp.o
+
+.PHONY : Arilthametic.o
+
+# target to build an object file
+Arilthametic.cpp.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/Arilthametic.cpp.o
+.PHONY : Arilthametic.cpp.o
+
+Arilthametic.i: Arilthametic.cpp.i
+
+.PHONY : Arilthametic.i
+
+# target to preprocess a source file
+Arilthametic.cpp.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/Arilthametic.cpp.i
+.PHONY : Arilthametic.cpp.i
+
+Arilthametic.s: Arilthametic.cpp.s
+
+.PHONY : Arilthametic.s
+
+# target to generate assembly for a file
+Arilthametic.cpp.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/Arilthametic.cpp.s
+.PHONY : Arilthametic.cpp.s
+
 Rectangle.o: Rectangle.cpp.o
 
 .PHONY : Rectangle.o
@@ -186,6 +213,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Lecture2"
+	@echo "... Arilthametic.o"
+	@echo "... Arilthametic.i"
+	@echo "... Arilthametic.s"
 	@echo "... Rectangle.o"
 	@echo "... Rectangle.i"
 	@echo "... Rectangle.s"
