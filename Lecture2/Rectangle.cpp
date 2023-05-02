@@ -46,16 +46,16 @@ int Rectangle::perimeter() const {
 
 
 
-int main(){
-    Rectangle r(10,5) ;
-    cout<<r.area()<<endl;
-    cout<<r.perimeter()<<endl;
-    cout<<r.getLength()<<endl;
-    r.setLength(20);
-    cout<<r.getLength()<<endl;
-    return 0;
-
-}
+//int main(){
+//    Rectangle r(10,5) ;
+//    cout<<r.area()<<endl;
+//    cout<<r.perimeter()<<endl;
+//    cout<<r.getLength()<<endl;
+//    r.setLength(20);
+//    cout<<r.getLength()<<endl;
+//    return 0;
+//
+//}
 
 
 
