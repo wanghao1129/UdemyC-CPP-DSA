@@ -18,11 +18,11 @@ void func2(int n){
 }
 
 
-
-int main(){
-    int x = 3;
-    func1(x);
-    printf("----------------------\n");
-    func2(x);
-    return 0;
-}
+//
+//int main(){
+//    int x = 3;
+//    func1(x);
+//    printf("----------------------\n");
+//    func2(x);
+//    return 0;
+//}
