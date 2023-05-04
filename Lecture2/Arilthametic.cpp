@@ -38,13 +38,13 @@ T Arilthametic<T>::sub() {
 # include "iostream"
 
 using namespace std;
-int main(){
-    Arilthametic<int> ar(10,5);
-    cout<<ar.add()<<endl;
-    cout<<ar.sub()<<endl;
-
-    Arilthametic<double> ar1(10.99,5.12);
-    cout<<ar1.add()<<endl;
-    cout<<ar1.sub()<<endl;
-}
+//int main(){
+//    Arilthametic<int> ar(10,5);
+//    cout<<ar.add()<<endl;
+//    cout<<ar.sub()<<endl;
+//
+//    Arilthametic<double> ar1(10.99,5.12);
+//    cout<<ar1.add()<<endl;
+//    cout<<ar1.sub()<<endl;
+//}
 

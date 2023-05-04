@@ -204,6 +204,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+recursion1.o: recursion1.c.o
+
+.PHONY : recursion1.o
+
+# target to build an object file
+recursion1.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion1.c.o
+.PHONY : recursion1.c.o
+
+recursion1.i: recursion1.c.i
+
+.PHONY : recursion1.i
+
+# target to preprocess a source file
+recursion1.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion1.c.i
+.PHONY : recursion1.c.i
+
+recursion1.s: recursion1.c.s
+
+.PHONY : recursion1.s
+
+# target to generate assembly for a file
+recursion1.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion1.c.s
+.PHONY : recursion1.c.s
+
+recursion2.o: recursion2.c.o
+
+.PHONY : recursion2.o
+
+# target to build an object file
+recursion2.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion2.c.o
+.PHONY : recursion2.c.o
+
+recursion2.i: recursion2.c.i
+
+.PHONY : recursion2.i
+
+# target to preprocess a source file
+recursion2.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion2.c.i
+.PHONY : recursion2.c.i
+
+recursion2.s: recursion2.c.s
+
+.PHONY : recursion2.s
+
+# target to generate assembly for a file
+recursion2.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion2.c.s
+.PHONY : recursion2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +276,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... recursion1.o"
+	@echo "... recursion1.i"
+	@echo "... recursion1.s"
+	@echo "... recursion2.o"
+	@echo "... recursion2.i"
+	@echo "... recursion2.s"
 .PHONY : help
 
 
