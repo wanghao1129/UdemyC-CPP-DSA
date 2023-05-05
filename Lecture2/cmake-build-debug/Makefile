@@ -258,6 +258,33 @@ recursion2.c.s:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion2.c.s
 .PHONY : recursion2.c.s
 
+recursion3.o: recursion3.c.o
+
+.PHONY : recursion3.o
+
+# target to build an object file
+recursion3.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion3.c.o
+.PHONY : recursion3.c.o
+
+recursion3.i: recursion3.c.i
+
+.PHONY : recursion3.i
+
+# target to preprocess a source file
+recursion3.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion3.c.i
+.PHONY : recursion3.c.i
+
+recursion3.s: recursion3.c.s
+
+.PHONY : recursion3.s
+
+# target to generate assembly for a file
+recursion3.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/recursion3.c.s
+.PHONY : recursion3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,6 +309,9 @@ help:
 	@echo "... recursion2.o"
 	@echo "... recursion2.i"
 	@echo "... recursion2.s"
+	@echo "... recursion3.o"
+	@echo "... recursion3.i"
+	@echo "... recursion3.s"
 .PHONY : help
 
 

@@ -33,11 +33,11 @@ int fun3(int m){
     return 0;
 }
 
-int main(){
-    int x = 5;
-    printf("fun result %d\n", fun(x));
-    printf("-------------\n");
-    printf("fun2 result %d\n", fun2(x));
-    printf("-------------\n");
-    printf("fun3 result %d\n", fun3(x));
-}
+//int main(){
+//    int x = 5;
+//    printf("fun result %d\n", fun(x));
+//    printf("-------------\n");
+//    printf("fun2 result %d\n", fun2(x));
+//    printf("-------------\n");
+//    printf("fun3 result %d\n", fun3(x));
+//}
