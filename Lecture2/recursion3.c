@@ -37,12 +37,12 @@ int funC(int n){
     }
 }
 
-int main(){
-    int x = 3;
-    funcA(20);
-    printf("\n-------------------\n");
-    int y = funC(95) ;
-    printf("%d\n",y);
-
-    return 0;
-}
+//int main(){
+//    int x = 3;
+//    funcA(20);
+//    printf("\n-------------------\n");
+//    int y = funC(95) ;
+//    printf("%d\n",y);
+//
+//    return 0;
+//}
