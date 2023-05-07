@@ -177,6 +177,33 @@ Rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/Rectangle.cpp.s
 .PHONY : Rectangle.cpp.s
 
+fib.o: fib.c.o
+
+.PHONY : fib.o
+
+# target to build an object file
+fib.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/fib.c.o
+.PHONY : fib.c.o
+
+fib.i: fib.c.i
+
+.PHONY : fib.i
+
+# target to preprocess a source file
+fib.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/fib.c.i
+.PHONY : fib.c.i
+
+fib.s: fib.c.s
+
+.PHONY : fib.s
+
+# target to generate assembly for a file
+fib.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/fib.c.s
+.PHONY : fib.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -203,6 +230,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+power.o: power.c.o
+
+.PHONY : power.o
+
+# target to build an object file
+power.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/power.c.o
+.PHONY : power.c.o
+
+power.i: power.c.i
+
+.PHONY : power.i
+
+# target to preprocess a source file
+power.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/power.c.i
+.PHONY : power.c.i
+
+power.s: power.c.s
+
+.PHONY : power.s
+
+# target to generate assembly for a file
+power.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/power.c.s
+.PHONY : power.c.s
 
 recursion1.o: recursion1.c.o
 
@@ -327,9 +381,15 @@ help:
 	@echo "... Rectangle.o"
 	@echo "... Rectangle.i"
 	@echo "... Rectangle.s"
+	@echo "... fib.o"
+	@echo "... fib.i"
+	@echo "... fib.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... power.o"
+	@echo "... power.i"
+	@echo "... power.s"
 	@echo "... recursion1.o"
 	@echo "... recursion1.i"
 	@echo "... recursion1.s"

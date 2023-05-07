@@ -39,15 +39,15 @@ int Ifact(int n){
     return result;
 }
 
-int main(){
-    printf("%d\n", sum(100));
-    printf("\n--------------\n");
-    printf("%d\n", sum2(100));
-    printf("\n--------------\n");
-    printf("%d\n", sum3(100));
-    printf("\n--------------\n");
-    printf("%d\n", fact(5));
-    printf("\n--------------\n");
-    printf("%d\n", Ifact(5));
-    return 0;
-}
+//int main(){
+//    printf("%d\n", sum(100));
+//    printf("\n--------------\n");
+//    printf("%d\n", sum2(100));
+//    printf("\n--------------\n");
+//    printf("%d\n", sum3(100));
+//    printf("\n--------------\n");
+//    printf("%d\n", fact(5));
+//    printf("\n--------------\n");
+//    printf("%d\n", Ifact(5));
+//    return 0;
+//}
