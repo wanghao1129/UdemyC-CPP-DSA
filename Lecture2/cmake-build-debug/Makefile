@@ -231,6 +231,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+nCr.o: nCr.c.o
+
+.PHONY : nCr.o
+
+# target to build an object file
+nCr.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/nCr.c.o
+.PHONY : nCr.c.o
+
+nCr.i: nCr.c.i
+
+.PHONY : nCr.i
+
+# target to preprocess a source file
+nCr.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/nCr.c.i
+.PHONY : nCr.c.i
+
+nCr.s: nCr.c.s
+
+.PHONY : nCr.s
+
+# target to generate assembly for a file
+nCr.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/nCr.c.s
+.PHONY : nCr.c.s
+
 power.o: power.c.o
 
 .PHONY : power.o
@@ -387,6 +414,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... nCr.o"
+	@echo "... nCr.i"
+	@echo "... nCr.s"
 	@echo "... power.o"
 	@echo "... power.i"
 	@echo "... power.s"

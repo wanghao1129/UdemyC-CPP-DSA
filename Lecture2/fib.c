@@ -46,15 +46,15 @@ int Mfib(int n){
     }
 }
 
-int main(){
-    printf("%d\n", fib(10));
-    printf("\n------------\n");
-    printf("%d\n", Ifib(10));
-
-    for (int i = 0; i < 10; ++i) {
-        F[i] = -1;
-    }
-    printf("\n------------\n");
-    printf("%d\n", Mfib(10));
-
-}
+//int main(){
+//    printf("%d\n", fib(10));
+//    printf("\n------------\n");
+//    printf("%d\n", Ifib(10));
+//
+//    for (int i = 0; i < 10; ++i) {
+//        F[i] = -1;
+//    }
+//    printf("\n------------\n");
+//    printf("%d\n", Mfib(10));
+//
+//}
