@@ -36,8 +36,8 @@ void HON(int n,int A,int B, int C){
     }
 }
 
-int main(){
-    printf("%d \n",ncr(5,3));
-    printf("%d \n",ncr2(5,3));
-    HON(3,1,2,3);
-}
+//int main(){
+//    printf("%d \n",ncr(5,3));
+//    printf("%d \n",ncr2(5,3));
+//    HON(3,1,2,3);
+//}

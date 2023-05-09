@@ -177,6 +177,33 @@ Rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/Rectangle.cpp.s
 .PHONY : Rectangle.cpp.s
 
+arrays_demo.o: arrays_demo.c.o
+
+.PHONY : arrays_demo.o
+
+# target to build an object file
+arrays_demo.c.o:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/arrays_demo.c.o
+.PHONY : arrays_demo.c.o
+
+arrays_demo.i: arrays_demo.c.i
+
+.PHONY : arrays_demo.i
+
+# target to preprocess a source file
+arrays_demo.c.i:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/arrays_demo.c.i
+.PHONY : arrays_demo.c.i
+
+arrays_demo.s: arrays_demo.c.s
+
+.PHONY : arrays_demo.s
+
+# target to generate assembly for a file
+arrays_demo.c.s:
+	$(MAKE) -f CMakeFiles/Lecture2.dir/build.make CMakeFiles/Lecture2.dir/arrays_demo.c.s
+.PHONY : arrays_demo.c.s
+
 fib.o: fib.c.o
 
 .PHONY : fib.o
@@ -408,6 +435,9 @@ help:
 	@echo "... Rectangle.o"
 	@echo "... Rectangle.i"
 	@echo "... Rectangle.s"
+	@echo "... arrays_demo.o"
+	@echo "... arrays_demo.i"
+	@echo "... arrays_demo.s"
 	@echo "... fib.o"
 	@echo "... fib.i"
 	@echo "... fib.s"
