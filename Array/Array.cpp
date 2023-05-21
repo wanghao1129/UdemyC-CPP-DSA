@@ -314,54 +314,54 @@ Array *Array::Difference(Array arr2) {
 
 
 
-int main(){
-    Array *arr1;
-    int ch,sz;
-    int x,index;
-    std::cout<<"Enter Size of Array : ";
-    scanf("%d",&sz);
-    arr1 = new Array(sz);
-
-    do {
-        std::cout << "\n\nMenu\n";
-        std::cout << "1.Insert\n";
-        std::cout << "2.Delete\n";
-        std::cout << "3.Search\n";
-        std::cout << "4.Sum\n";
-        std::cout << "5.Display\n";
-        std::cout << "6.Exit\n";
-
-        std::cout << "Enter your choice: ";
-        std::cin >> ch;
-
-        switch (ch) {
-            case 1:
-                std::cout << "Enter an element and  index: ";
-                std::cin >> x >> index;
-                arr1->Insert(index,x);
-                break;
-            case 2:
-                std::cout << "Enter index: ";
-                std::cin >> index;
-                x = arr1->Delete(index);
-                std::cout << "Deleted element is: " << x;
-                break;
-            case 3:
-                std::cout << "Enter element to search: ";
-                std::cin >> x;
-                index = arr1->LinearSearch(x);
-                std::cout << "Element index is: " << index;
-                break;
-            case 4:
-                std::cout << "Sum is: " << arr1->Sum();
-                break;
-            case 5:
-                arr1->Display();
-                break;
-        }
-    }while (ch < 6);
-    return 0;
-}
+//int main(){
+//    Array *arr1;
+//    int ch,sz;
+//    int x,index;
+//    std::cout<<"Enter Size of Array : ";
+//    scanf("%d",&sz);
+//    arr1 = new Array(sz);
+//
+//    do {
+//        std::cout << "\n\nMenu\n";
+//        std::cout << "1.Insert\n";
+//        std::cout << "2.Delete\n";
+//        std::cout << "3.Search\n";
+//        std::cout << "4.Sum\n";
+//        std::cout << "5.Display\n";
+//        std::cout << "6.Exit\n";
+//
+//        std::cout << "Enter your choice: ";
+//        std::cin >> ch;
+//
+//        switch (ch) {
+//            case 1:
+//                std::cout << "Enter an element and  index: ";
+//                std::cin >> x >> index;
+//                arr1->Insert(index,x);
+//                break;
+//            case 2:
+//                std::cout << "Enter index: ";
+//                std::cin >> index;
+//                x = arr1->Delete(index);
+//                std::cout << "Deleted element is: " << x;
+//                break;
+//            case 3:
+//                std::cout << "Enter element to search: ";
+//                std::cin >> x;
+//                index = arr1->LinearSearch(x);
+//                std::cout << "Element index is: " << index;
+//                break;
+//            case 4:
+//                std::cout << "Sum is: " << arr1->Sum();
+//                break;
+//            case 5:
+//                arr1->Display();
+//                break;
+//        }
+//    }while (ch < 6);
+//    return 0;
+//}
 
 
 
